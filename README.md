@@ -44,3 +44,18 @@ PolicySalesChannel : Anonymized Code for the channel of outreaching to the custo
 Vintage : Number of Days, Customer has been associated with the company
 
 Response : 1 - Customer is interested, 0 - Customer is not interested
+
+
+
+# CONCLUSION
+
+
+
+Through Exploratory Data Analysis, we categorized Age as YoungAge, MiddleAge, and OldAge, then we categorized the Region_Code as Region_A, Region_B, Region_C. We categorized the Policy_Sales_Channel into channel_A, channel_B, channel_C. Further, we observed that customers belonging to youngAge are more interested in vehicle response. We observed that customers having vehicles older than 2 years are more likely to be interested in vehicle insurance. Similarly, customers having damaged vehicles are more likely to be interested in vehicle insurance.
+
+Further, we applied Machine Learning Algorithms to determine whether a customer would be interested in Vehicle Insurance
+
+There was overfitting issues while using Random forest method. We tackled that with hyperparameter tuning.
+Annual Premium column has the highest importance among all the features.
+We are getting 85% accuracy for both test and train dataset while using Random Forest model with hyperparameter tuning.
+Hence, we can deploy this model
