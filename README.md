@@ -69,6 +69,25 @@ Scikit-learn
 
 XGBoost
 
+# Execution Instruction
+
+The order of execution of the program files is as follows:
+
+HEALTH INSURANCE CROSS SELL PREDICTION.ipynb
+HEALTH_INSURANCE_CROSS_SELL_PREDICTION.ipynb contains the entire code for Data exploration/Data processing/transformation/model development
+
+# BEST MODEL
+
+
+
+From all the above models that we tried to train and predict the output, we can conclude that Bagging Classifier is the best model for our data set. The best parameter of this model is {'n_estimators': 200}. Its Accuracy Score is 0.85, Precision is 0.31, Recall is 0.15, F1_Score is 0.20, ROC_AUC_Score is 0.55 and Log_Loss is 4.98. Its Elapsed time is 03 minutes and 21 seconds.
+
+We can see that we have other models with higher Accuracy Score than Bagging Classifier. But the problem with those models is, their Precision and Recall values are zero which means True Positives are zero. That means those models are unable to predict correct output if any customer is ready to take vehicle insurance. And as we all know, classification accuracy alone can be misleading if you have an unequal number of observations in each class. This is exactly the case with our data set.
+
+Hence, Bagging Classifier is the best model for our data set.
+
+NOTE: You might get a slight difference in result every time you run because we are using Halving_Randomized_Search_CV to perform hyperparameter tunning which randomly selects the combination of parameters to tune the model.
+
 
 
 # CONCLUSION
