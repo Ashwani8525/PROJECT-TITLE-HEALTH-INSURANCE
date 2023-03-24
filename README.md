@@ -46,6 +46,30 @@ Vintage : Number of Days, Customer has been associated with the company
 Response : 1 - Customer is interested, 0 - Customer is not interested
 
 
+# METHODS USED
+
+Descriptive Statistics
+
+Data Visualization
+
+Machine Learning
+
+# TECHNOLOGIES
+Python
+
+Pandas
+
+Numpy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+XGBoost
+
+
 
 # CONCLUSION
 
@@ -59,3 +83,10 @@ There was overfitting issues while using Random forest method. We tackled that w
 Annual Premium column has the highest importance among all the features.
 We are getting 85% accuracy for both test and train dataset while using Random Forest model with hyperparameter tuning.
 Hence, we can deploy this model
+
+# References
+https://towardsdatascience.com
+
+https://www.analyticsvidhya.com
+
+https://machinelearningmastery.com
